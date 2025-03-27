@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modes>
+
+  <!-- umu → eng -->
+
+  <mode name="umu-eng" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="umu-eng.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="umu-eng.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="umu-eng.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="umu-eng.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="umu-eng.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="umu-eng.rtx.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="umu-eng.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="umu-eng.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <!-- eng → umu -->
+
+  <mode name="eng-umu" install="yes" gendebug="yes">
+    <pipeline>
+
+      <program name="lt-proc -w">
+        <file name="eng-umu.automorf.bin"/>
+      </program>
+
+
+      <program name="cg-proc -w">
+        <file name="eng-umu.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="eng-umu.prob"/>
+      </program>
+
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="eng-umu.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="eng-umu.autolex.bin"/>
+      </program>
+
+
+      <program name="rtx-proc">
+        <file name="eng-umu.rtx.bin"/>
+      </program>
+
+      <program name="lt-proc $1">
+        <file name="eng-umu.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="eng-umu.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+</modes>
+

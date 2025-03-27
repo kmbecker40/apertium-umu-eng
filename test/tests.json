@@ -1,0 +1,10 @@
+{
+    "umu-eng": {
+        "input": "umu-eng-input.txt",
+        "mode": "umu-eng"
+    },
+    "eng-umu": {
+        "input": "eng-umu-input.txt",
+        "mode": "eng-umu"
+    }
+}
