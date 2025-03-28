@@ -7,11 +7,15 @@
     <!-- Define symbol definitions within <sdef> here. -->
     <sdef n="n"               c="Noun"/>
     <sdef n="np"              c="Proper noun"/>
-    <sdef n="vblex"           c="Verb, lexical"/>
+    <sdef n="aa"              c="Animate noun"/>
+    <sdef n="nn"              c="Inanimate noun"/>
+    <sdef n="v"               c="Verb, lexical"/>
     <sdef n="vbmod"           c="Modal verb"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
     <sdef n="vbser"           c="'To be' verb"/>
     <sdef n="vbhaver"         c="'To have' verb"/>
+    <sdef n="iv"              c="Intransitive verb"/>
+    <sdef n="tv"              c="Transitive verb"/>
     <sdef n="cnjsub"          c="Subordinating conjunction"/>
     <sdef n="cnjcoo"          c="Co-ordinating conjunction"/>
     <sdef n="cnjadv"          c="Adverbial conjunction"/>
@@ -20,6 +24,7 @@
     <sdef n="ij"              c="Interjection"/>
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
+    <sdef n="mod"             c="Modal word"/>
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
@@ -38,6 +43,27 @@
     <sdef n="p1"              c="1st person"/>
     <sdef n="p2"              c="2nd person"/>
     <sdef n="p3"              c="3rd person"/>
+
+    <sdef n="s_1sg"           c="1st person singular subject"/>
+    <sdef n="s_2sg"           c="2nd person singular subject"/>
+    <sdef n="s_3sg"           c="3rd person singular subject"/>
+    <sdef n="s_1pl"           c="1st person plural subject"/>
+    <sdef n="s_2pl"           c="2nd person plural subject"/>
+    <sdef n="s_3pl"           c="3rd person plural subject"/>
+
+    <sdef n="o_1sg"           c="1st person singular object"/>
+    <sdef n="o_2sg"           c="2nd person singular object"/>
+    <sdef n="o_3sg"           c="3rd person singular object"/>
+    <sdef n="o_1pl"           c="1st person plural object"/>
+    <sdef n="o_2pl"           c="2nd person plural object"/>
+    <sdef n="o_3pl"           c="3rd person plural object"/>
+
+    <sdef n="px1sg"           c="First person singular possessive"/>
+    <sdef n="px2sg"           c="Second person singular possessive"/>
+    <sdef n="px3sg"           c="Third person singular possessive"/>
+    <sdef n="px1pl"           c="First person plural possessive"/>
+    <sdef n="px2pl"           c="Second person plural possessive"/>
+    <sdef n="px3pl"           c="Third person plural possessive"/>
 
     <sdef n="nt"              c="Neuter"/>
     <sdef n="ut"              c="Utrum"/>
@@ -72,6 +98,10 @@
     <sdef n="pasv"            c="Passive"/>
     <sdef n="actv"            c="Active voice"/>
 
+    <sdef n="abs"             c="Absence"/>
+    <sdef n="meat"            c="Meat of"/>
+    <sdef n="loc"             c="Locative"/>
+
     <sdef n="sint"            c="Synthetic (of adjectives)"/>
     <sdef n="pst"             c="Positive"/>
     <sdef n="comp"            c="Comparative"/>
@@ -100,6 +130,42 @@
       <!-- example:
            <e><p><l>house<s n="n"/></l><r>casa<s n="n"/><s n="f"/></r></p></e>
       -->
+
+      <e><p><l>laawate<s n="adj"/></l><r>long ago<s n="adj"/></r></p></e>
+      <e><p><l>weemi<s n="adj"/></l><r>all<s n="adj"/></r></p></e>
+      <e><p><l>aween<s n="prn"/></l><r>person<s n="prn"/></r></p></e>
+      <e><p><l>moxa<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
+      <e><p><l>mataasuw<s n="v"/><s n="iv"/></l><r>to lead a wicked life<s n="v"/><s n="iv"/></r></p></e>
+
+      <e><p><l>shiinzuw<s n="v"/><s n="iv"/></l><r>to be named<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>Noah<s n="np"/></l><r>Noah<s n="np"/></r></p></e>
+
+      <e><p><l>nal<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
+      <e><p><l>Pahtamawaas<s n="np"/></l><r>God<s n="np"/></r></p></e>
+      <e><p><l>kpaham<s n="v"/><s n="tv"/></l><r>shut<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>kpahoon<s n="n"/><s n="nn"/></l><r>then<s n="n"/></r></p></e>
+
+      <e><p><l>kumootkeew<s n="v"/><s n="tv"/></l><r>steal<s n="v"/></r></p></e>
+      <e><p><l>waak<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
+      <e><p><l>kulooneew<s n="v"/><s n="iv"/></l><r>lie<s n="v"/><s n="iv"/></r></p></e>
+
+      <e><p><l>wulaawsuw<s n="v"/><s n="iv"/></l><r>to be holy<s n="v"/><s n="iv"/></r></p></e>
+
+      <e><p><l>shukw<s n="cnjsub"/></l><r>but<s n="cnjsub"/></r></p></e>
+      <e><p><l>ahwaaleew<s n="v"/><s n="tv"/></l><r>to love<s n="v"/><s n="tv"/></r></p></e>
+
+      <e><p><l>Jesus<s n="np"/></l><r>Jesus<s n="np"/></r></p></e>
+      <e><p><l>Christ<s n="np"/></l><r>Christ<s n="np"/></r></p></e>
+
+      <e><p><l>shaaw<s n="adv"/></l><r>immediately<s n="adv"/></r></p></e>
+      <e><p><l>oxkweesus<s n="n"/><s n="aa"/></l><r>girl<s n="n"/><s n="aa"/></r></p></e>
+      <e><p><l>manoongsuw<s n="v"/><s n="iv"/></l><r>be angry<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>ang<s n="emph"/></l><r>emphatic<s n="emph"/></r></p></e>
+
+      <e><p><l>pambiil<s n="n"/><s n="aa"/></l><r>book<s n="n"/><s n="aa"/></r></p></e>
+      <e><p><l>ngaleew<s n="v"/><s n="tv"/></l><r>leave behind<s n="v"/><s n="tv"/></r></p></e>
+
+      <e><p><l>tumusheew<s n="v"/><s n="tv"/></l><r>cut<s n="v"/><s n="tv"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
