@@ -10,6 +10,7 @@
     <sdef n="aa"              c="Animate noun"/>
     <sdef n="nn"              c="Inanimate noun"/>
     <sdef n="v"               c="Verb, lexical"/>
+    <sdef n="vblex"               c="Lexical verb"/>
     <sdef n="vbmod"           c="Modal verb"/>
     <sdef n="vaux"            c="Auxiliary verb"/>
     <sdef n="vbser"           c="'To be' verb"/>
@@ -132,10 +133,10 @@
       -->
 
       <e><p><l>laawate<s n="adv"/></l><r>long ago<s n="adv"/></r></p></e>
-      <e><p><l>weemi<s n="adj"/></l><r>all<s n="adj"/></r></p></e>
+      <e><p><l>weemĭ<s n="det"/></l><r>all<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
       <e><p><l>aween<s n="prn"/></l><r>person<s n="prn"/></r></p></e>
       <e><p><l>moxa<s n="adv"/></l><r>very<s n="adv"/></r></p></e>
-      <e><p><l>mataasuw<s n="v"/><s n="iv"/></l><r>to lead a wicked life<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>mataawsu<s n="v"/><s n="iv"/><s n="aa"/></l><r>sin<s n="vblex"/><s n="inf"/></r></p></e>
 
       <e><p><l>shiinzuw<s n="v"/><s n="iv"/></l><r>to be named<s n="v"/><s n="iv"/></r></p></e>
       <e><p><l>Noah<s n="np"/><s n="ant"/></l><r>Noah<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
@@ -151,23 +152,23 @@
 
       <e><p><l>wulaawsuw<s n="v"/><s n="iv"/></l><r>to be holy<s n="v"/><s n="iv"/></r></p></e>
 
-      <e><p><l>shukw<s n="cnjsub"/></l><r>but<s n="cnjsub"/></r></p></e>
+      <e><p><l>shukw<s n="cnjcoo"/></l><r>but<s n="cnjcoo"/></r></p></e>
       <e><p><l>ahwaaleew<s n="v"/><s n="tv"/></l><r>to love<s n="v"/><s n="tv"/></r></p></e>
 
-      <e><p><l>Jesus<s n="ant"/><s n="np"/></l><r>Jesus<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Christ<s n="ant"/><s n="np"/></l><r>Christ<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Jesus<s n="np"/><s n="ant"/></l><r>Jesus<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Christ<s n="np"/><s n="ant"/></l><r>Christ<s n="np"/><s n="al"/><s n="sg"/></r></p></e>
 
       <e><p><l>shaa<s n="adv"/></l><r>immediately<s n="adv"/></r></p></e>
-      <e><p><l>oxkweesus<s n="n"/><s n="aa"/></l><r>girl<s n="n"/><s n="aa"/></r></p></e>
+      <e><p><l>oxkwéesus<s n="n"/><s n="aa"/></l><r>girl<s n="n"/><s n="sg"/></r></p></e>
       <e><p><l>manoongsuw<s n="v"/><s n="iv"/></l><r>be angry<s n="v"/><s n="iv"/></r></p></e>
-      <e><p><l>ang<s n="emph"/></l><r>emphatic<s n="emph"/></r></p></e>
+      <e><p><l>ang<s n="emph"/></l><r>emphatic<s n="adj"/></r></p></e>
 
       <e><p><l>pambiil<s n="n"/><s n="aa"/></l><r>book<s n="n"/><s n="aa"/></r></p></e>
       <e><p><l>ngaleew<s n="v"/><s n="tv"/></l><r>leave behind<s n="v"/><s n="tv"/></r></p></e>
 
-      <e><p><l>tumusheew<s n="v"/><s n="tv"/></l><r>cut<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>tumusheew<s n="v"/><s n="tv"/></l><r>cut<s n="vblex"/><s n="inf"/></r></p></e>
 
-      <e><p><l>nzhiis<s n="n"/><s n="aa"/></l><r>uncle<s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l>nzhíis<s n="n"/><s n="aa"/></l><r>uncle<s n="n"/><s n="sg"/></r></p></e>
       <e><p><l>moxóomus<s n="n"/><s n="aa"/></l><r>grandfather<s n="n"/><s n="sg"/></r></p></e>
       <e><p><l>óohŭm<s n="n"/><s n="aa"/></l><r>grandmother<s n="n"/><s n="sg"/></r></p></e>
       <e><p><l>wiixkwii<s n="adv"/></l><r>suddenly<s n="adv"/></r></p></e>
@@ -191,6 +192,10 @@
       <e><p><l>tundeew<s n="n"/><s n="nn"/></l><r>fire<s n="n"/></r></p></e>
       <e><p><l>neem<s n="v"/><s n="tv"/></l><r>see<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>lpakw<s n="v"/><s n="iv"/></l><r>cry<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>ha<s n="emph"/></l><r>emphatic<s n="adj"/></r></p></e>
+      <e><p><l>uch<s n="mod"/></l><r>emphatic<s n="vbmod"/><s n="inf"/></r></p></e>
+      <e><p><l>ngumee<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
+      <e><p><l>leew<s n="v"/><s n="tv"/><s n="aa"/></l><r>tell<s n="vblex"/><s n="inf"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
