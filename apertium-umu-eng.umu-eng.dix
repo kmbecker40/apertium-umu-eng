@@ -138,10 +138,10 @@
       <e><p><l>mataasuw<s n="v"/><s n="iv"/></l><r>to lead a wicked life<s n="v"/><s n="iv"/></r></p></e>
 
       <e><p><l>shiinzuw<s n="v"/><s n="iv"/></l><r>to be named<s n="v"/><s n="iv"/></r></p></e>
-      <e><p><l>Noah<s n="ant"/><s n="np"/></l><r>Noah<s n="ant"/><s n="np"/></r></p></e>
+      <e><p><l>Noah<s n="np"/><s n="ant"/></l><r>Noah<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
       <e><p><l>nal<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
-      <e><p><l>Pahtamawaas<s n="ant"/><s n="np"/></l><r>God<s n="ant"/><s n="np"/></r></p></e>
+      <e><p><l>Pahtamawaas<s n="np"/><s n="ant"/></l><r>God<s n="np"/><s n="al"/></r></p></e>
       <e><p><l>kpaham<s n="v"/><s n="tv"/></l><r>shut<s n="v"/><s n="tv"/></r></p></e>
       <e><p><l>kpahoon<s n="n"/><s n="nn"/></l><r>door<s n="n"/></r></p></e>
 
@@ -154,8 +154,8 @@
       <e><p><l>shukw<s n="cnjsub"/></l><r>but<s n="cnjsub"/></r></p></e>
       <e><p><l>ahwaaleew<s n="v"/><s n="tv"/></l><r>to love<s n="v"/><s n="tv"/></r></p></e>
 
-      <e><p><l>Jesus<s n="ant"/><s n="np"/></l><r>Jesus<s n="ant"/><s n="np"/></r></p></e>
-      <e><p><l>Christ<s n="ant"/><s n="np"/></l><r>Christ<s n="ant"/><s n="np"/></r></p></e>
+      <e><p><l>Jesus<s n="ant"/><s n="np"/></l><r>Jesus<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>Christ<s n="ant"/><s n="np"/></l><r>Christ<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
       <e><p><l>shaa<s n="adv"/></l><r>immediately<s n="adv"/></r></p></e>
       <e><p><l>oxkweesus<s n="n"/><s n="aa"/></l><r>girl<s n="n"/><s n="aa"/></r></p></e>
@@ -167,13 +167,13 @@
 
       <e><p><l>tumusheew<s n="v"/><s n="tv"/></l><r>cut<s n="v"/><s n="tv"/></r></p></e>
 
-      <e><p><l>nzhiis<s n="n"/><s n="aa"/></l><r>uncle<s n="n"/></r></p></e>
-      <e><p><l>moxóomus<s n="n"/><s n="aa"/></l><r>grandfather<s n="n"/></r></p></e>
-      <e><p><l>óohŭm<s n="n"/><s n="aa"/></l><r>grandmother<s n="n"/></r></p></e>
+      <e><p><l>nzhiis<s n="n"/><s n="aa"/></l><r>uncle<s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l>moxóomus<s n="n"/><s n="aa"/></l><r>grandfather<s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l>óohŭm<s n="n"/><s n="aa"/></l><r>grandmother<s n="n"/><s n="sg"/></r></p></e>
       <e><p><l>wiixkwii<s n="adv"/></l><r>suddenly<s n="adv"/></r></p></e>
       <e><p><l>lunuw<s n="n"/><s n="aa"/></l><r>man<s n="n"/></r></p></e>
       <e><p><l>óohŭm<s n="n"/><s n="aa"/></l><r>grandmother<s n="n"/></r></p></e>
-      <e><p><l>wchápihk<s n="n"/><s n="mm"/></l><r>medicine<s n="n"/></r></p></e>
+      <e><p><l>wchápihk<s n="n"/><s n="nn"/></l><r>medicine<s n="n"/></r></p></e>
       <e><p><l>nguk<s n="n"/><s n="aa"/></l><r>my mother<s n="n"/></r></p></e>
       <e><p><l>amiimunz<s n="n"/><s n="aa"/></l><r>child<s n="n"/></r></p></e>
       <e><p><l>mataawsuwaakan<s n="n"/><s n="nn"/></l><r>sin<s n="n"/></r></p></e>
