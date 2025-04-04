@@ -197,6 +197,10 @@
       <e><p><l>ngumee<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
       <e><p><l>leew<s n="v"/><s n="tv"/><s n="aa"/></l><r>tell<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>uw<s n="v"/><s n="iv"/><s n="aa"/></l><r>tell<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>ngúk<s n="n"/><s n="aa"/></l><r>mother<s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l>njihnal<s n="adv"/></l><r>more<s n="adv"/></r></p></e>
+      <e><p><l>kway<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
+      <e><p><l>meexalapóotiis<s n="n"/><s n="aa"/></l><r>spider<s n="n"/><s n="sg"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>

@@ -10,7 +10,10 @@
     </match>
   </rule>
   -->
-</rules>
+
+
+<!-- This rule distinguishes between the demonstrative determiner and pronoun forms of "wan". 
+"wan" means this, and is chosen as a demonstrative determiner when preceding a noun. --> 
 
 <!--
 Resources:
