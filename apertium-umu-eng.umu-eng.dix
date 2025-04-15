@@ -203,6 +203,10 @@
       <e><p><l>meexalapóotiis<s n="n"/><s n="aa"/></l><r>spider<s n="n"/><s n="sg"/></r></p></e>
       <e><p><l>áhpapoon<s n="n"/><s n="nn"/></l><r>chair<s n="n"/><s n="sg"/></r></p></e>
       <e><p><l>wiinamámeew<s n="v"/><s n="tv"/><s n="aa"/></l><r>hurt<s n="vblex"/><s n="inf"/></r></p></e>
+      <e><p><l>meexalapóotiis<s n="n"/><s n="aa"/></l><r>spider<s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l>níil<s n="n"/><s n="aa"/><s n="px1sg"/></l><r>spider<s n="n"/><s n="sg"/></r></p></e>
+
+
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
