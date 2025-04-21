@@ -142,11 +142,11 @@
       <e><p><l>Noah<s n="np"/><s n="ant"/></l><r>Noah<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
       <e><p><l>nal<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
-      <e><p><l>Pahtamawaas<s n="np"/><s n="ant"/></l><r>God<s n="np"/><s n="al"/></r></p></e>
+      <e><p><l>Pahtamawaas<s n="np"/><s n="ant"/></l><r>God<s n="np"/><s n="al"/><s n="sg"/></r></p></e>
       <e><p><l>kpaham<s n="v"/><s n="tv"/></l><r>shut<s n="vblex"/></r></p></e>
       <e><p><l>kpahoon<s n="n"/><s n="nn"/></l><r>door<s n="n"/></r></p></e>
 
-      <e><p><l>kumootkeew<s n="v"/><s n="tv"/></l><r>steal<s n="v"/></r></p></e>
+      <e><p><l>kumootkeew<s n="v"/><s n="tv"/></l><r>steal<s n="vblex"/></r></p></e>
       <e><p><l>waak<s n="cnjcoo"/></l><r>and<s n="cnjcoo"/></r></p></e>
       <e><p><l>kulooneew<s n="v"/><s n="iv"/></l><r>lie<s n="vblex"/></r></p></e>
 
@@ -156,38 +156,37 @@
       <e><p><l>ahwaaleew<s n="v"/><s n="tv"/></l><r>love<s n="vblex"/></r></p></e>
 
       <e><p><l>Jesus<s n="np"/><s n="ant"/></l><r>Jesus<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>Christ<s n="np"/><s n="ant"/></l><r>Christ<s n="np"/><s n="al"/><s n="sg"/></r></p></e>
+      <e><p><l>Christ<s n="np"/><s n="ant"/></l><r>Christ<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></r></p></e>
 
       <e><p><l>shaa<s n="adv"/></l><r>immediately<s n="adv"/></r></p></e>
-      <e><p><l>oxkwéesus<s n="n"/><s n="aa"/></l><r>girl<s n="n"/><s n="sg"/></r></p></e>
-      <e><p><l>manoongsuw<s n="v"/><s n="iv"/></l><r>be<b/>angry<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>oxkwéesus<s n="n"/><s n="aa"/></l><r>girl<s n="n"/></r></p></e>
+      <e><p><l>manoongsuw<s n="v"/><s n="iv"/></l><r>be<b/>angry<s n="vblex"/></r></p></e>
       <e><p><l>ang<s n="emph"/></l><r>emphatic<s n="adj"/></r></p></e>
 
-      <e><p><l>pámbiil<s n="n"/><s n="aa"/></l><r>book<s n="n"/><s n="sg"/></r></p></e>
-      <e><p><l>ngaleew<s n="v"/><s n="tv"/></l><r>leave<b/>behind<s n="v"/><s n="tv"/></r></p></e>
+      <e><p><l>pámbiil<s n="n"/><s n="aa"/></l><r>book<s n="n"/></r></p></e>
+      <e><p><l>ngaleew<s n="v"/><s n="tv"/></l><r>leave<b/>behind<s n="vblex"/></r></p></e>
 
       <e><p><l>tumusheew<s n="v"/><s n="tv"/></l><r>cut<s n="vblex"/></r></p></e>
 
-      <e><p><l>nzhíis<s n="n"/><s n="aa"/></l><r>uncle<s n="n"/><s n="sg"/></r></p></e>
-      <e><p><l>moxóomus<s n="n"/><s n="aa"/></l><r>grandfather<s n="n"/><s n="sg"/></r></p></e>
-      <e><p><l>óohŭm<s n="n"/><s n="aa"/></l><r>grandmother<s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l>nzhíis<s n="n"/><s n="aa"/></l><r>uncle<s n="n"/></r></p></e>
+      <e><p><l>moxóomus<s n="n"/><s n="aa"/></l><r>grandfather<s n="n"/></r></p></e>
+      <e><p><l>óohŭm<s n="n"/><s n="aa"/></l><r>grandmother<s n="n"/></r></p></e>
       <e><p><l>wiixkwii<s n="adv"/></l><r>suddenly<s n="adv"/></r></p></e>
       <e><p><l>lunuw<s n="n"/><s n="aa"/></l><r>man<s n="n"/></r></p></e>
-      <e><p><l>óohŭm<s n="n"/><s n="aa"/></l><r>grandmother<s n="n"/></r></p></e>
       <e><p><l>wchápihk<s n="n"/><s n="nn"/></l><r>medicine<s n="n"/></r></p></e>
       <e><p><l>nguk<s n="n"/><s n="aa"/></l><r>mother<s n="n"/></r></p></e>
       <e><p><l>amiimunz<s n="n"/><s n="aa"/></l><r>child<s n="n"/></r></p></e>
       <e><p><l>mataawsuwaakan<s n="n"/><s n="nn"/></l><r>sin<s n="n"/></r></p></e>
       <e><p><l>alaami<s n="adv"/></l><r>inside<s n="adv"/></r></p></e>
-      <e><p><l>pundam<s n="v"/><s n="tv"/></l><r>hear<s n="v"/><s n="tv"/></r></p></e>
-      <e><p><l>alumsuw<s n="v"/><s n="iv"/></l><r>leave<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>pundam<s n="v"/><s n="tv"/></l><r>hear<s n="vblex"/></r></p></e>
+      <e><p><l>alumsuw<s n="v"/><s n="iv"/></l><r>leave<s n="vblex"/></r></p></e>
       <e><p><l>amoxool<s n="n"/><s n="aa"/></l><r>boat<s n="n"/></r></p></e>
       <e><p><l>mehch<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
       <e><p><l>ehkwi-pumaawsuw<s n="v"/><s n="iv"/></l><r>die<s n="vblex"/></r></p></e>
       <e><p><l>manihleew<s n="v"/><s n="iv"/></l><r>die<s n="vblex"/></r></p></e>
       <e><p><l>kohpii<s n="n"/><s n="aa"/></l><r>forest<s n="n"/></r></p></e>
       <e><p><l>ahkuy<s n="n"/><s n="nn"/></l><r>earth<s n="n"/></r></p></e>
-      <e><p><l>liiteeheew<s n="v"/><s n="iv"/></l><r>think<s n="v"/><s n="iv"/></r></p></e>
+      <e><p><l>liiteeheew<s n="v"/><s n="iv"/></l><r>think<s n="vblex"/></r></p></e>
       <e><p><l>koot<s n="n"/><s n="nn"/></l><r>coat<s n="n"/></r></p></e>
       <e><p><l>tundeew<s n="n"/><s n="nn"/></l><r>fire<s n="n"/></r></p></e>
       <e><p><l>neem<s n="v"/><s n="tv"/></l><r>see<s n="vblex"/></r></p></e>
@@ -197,15 +196,16 @@
       <e><p><l>ngumee<s n="adv"/></l><r>always<s n="adv"/></r></p></e>
       <e><p><l>leew<s n="v"/><s n="tv"/><s n="aa"/></l><r>tell<s n="vblex"/></r></p></e>
       <e><p><l>uw<s n="v"/><s n="iv"/><s n="aa"/></l><r>tell<s n="vblex"/></r></p></e>
-      <e><p><l>ngúk<s n="n"/><s n="aa"/></l><r>mother<s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l>ngúk<s n="n"/><s n="aa"/></l><r>mother<s n="n"/></r></p></e>
       <e><p><l>njihnal<s n="adv"/></l><r>more<s n="adv"/></r></p></e>
       <e><p><l>kway<s n="adv"/></l><r>now<s n="adv"/></r></p></e>
-      <e><p><l>meexalapóotiis<s n="n"/><s n="aa"/></l><r>spider<s n="n"/><s n="sg"/></r></p></e>
-      <e><p><l>áhpapoon<s n="n"/><s n="nn"/></l><r>chair<s n="n"/><s n="sg"/></r></p></e>
+      <e><p><l>meexalapóotiis<s n="n"/><s n="aa"/></l><r>spider<s n="n"/></r></p></e>
+      <e><p><l>áhpapoon<s n="n"/><s n="nn"/></l><r>chair<s n="n"/></r></p></e>
       <e><p><l>wiinamámeew<s n="v"/><s n="tv"/><s n="aa"/></l><r>hurt<s n="vblex"/></r></p></e>
-      <e><p><l>meexalapóotiis<s n="n"/><s n="aa"/></l><r>spider<s n="n"/><s n="sg"/></r></p></e>
-      <e><p><l>níil<s n="n"/><s n="aa"/><s n="px1sg"/></l><r>spider<s n="n"/><s n="sg"/></r></p></e>
-
+      <e><p><l>meexalapóotiis<s n="n"/><s n="aa"/></l><r>spider<s n="n"/></r></p></e>
+      <e><p><l>níil<s n="n"/><s n="aa"/><s n="px1sg"/></l><r>spider<s n="n"/></r></p></e>
+      <e><p><l>míhtukw<s n="n"/><s n="aa"/></l><r>tree<s n="n"/></r></p></e>
+      <e><p><l>kawíi<s n="n"/><s n="aa"/></l><r>sleep<s n="n"/></r></p></e>
 
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
