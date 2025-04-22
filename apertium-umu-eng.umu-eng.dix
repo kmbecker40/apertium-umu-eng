@@ -205,8 +205,8 @@
       <e><p><l>meexalapóotiis<s n="n"/><s n="aa"/></l><r>spider<s n="n"/></r></p></e>
       <e><p><l>níil<s n="n"/><s n="aa"/><s n="px1sg"/></l><r>spider<s n="n"/></r></p></e>
       <e><p><l>míhtukw<s n="n"/><s n="aa"/></l><r>tree<s n="n"/></r></p></e>
-      <e><p><l>kawíi<s n="n"/><s n="aa"/></l><r>sleep<s n="n"/></r></p></e>
-
+      <e><p><l>kawíi<s n="v"/><s n="iv"/><s n="aa"/></l><r>sleep<s n="vblex"/></r></p></e>
+      <e><p><l>míichii<s n="v"/><s n="tv"/><s n="aa"/></l><r>eat<s n="vblex"/></r></p></e>
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
