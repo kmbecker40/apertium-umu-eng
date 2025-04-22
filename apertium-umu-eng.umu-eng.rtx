@@ -11,7 +11,7 @@ tense = pres past fut ifi pri fti;
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
-n: _.gender.number;
+n: _.number;
 adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
@@ -37,10 +37,13 @@ det: (if (1.det_type = def or 1.det_type = ind)
 !! REDUCTION RULES
 !!!!!!!!!!!!!!!
 
+
 ! Example rule:
 ! Input:  ^ראש<n><m><sg>/hovud<n><nt><sg>$ ^גדול<adj><m><sg>/stor<adj><m><sg>$
 ! Output: ^stor<adj><nt><sg>$ ^hovud<n><nt><sg>$
 ! NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
+
+NP -> n { 1 } ;
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Apertium-recursive
