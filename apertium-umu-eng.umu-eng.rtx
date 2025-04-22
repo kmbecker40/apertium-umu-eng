@@ -6,17 +6,19 @@ number = (ND sg) sg pl sp ND;
 gender = (GD m) m f mf GD;
 det_type = def ind dem itg;
 tense = pres past fut ifi pri fti;
+absense = abs;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
 !!!!!!!!!!!!!!!
 
-n: _.number;
+n: _.number;  
 adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
 
-NP: _.number;
+
+NP: _.number.absense;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -43,7 +45,18 @@ det: (if (1.det_type = def or 1.det_type = ind)
 ! Output: ^stor<adj><nt><sg>$ ^hovud<n><nt><sg>$
 ! NP -> n.$number adj { 2[gender=1.gender, number=1.number] _ 1 } ;
 
-NP -> n { 1 } ;
+
+
+! Rule for absense suffix: Noun phrase in English (noun w/ adjective "late") 
+! gets information from the noun phrase in Munsee (noun w/ absense suffix "aya")
+! (umu) nŭmoxoomsáya → (eng) my late grandfather 
+! Input: ^moxóomus<n><aa><px1sg><abs> 
+! Output: ^prpers<det><pos><p1><mf><sg> late<adj><sint> grandfather<n><sg>
+
+NP -> %n (if (1.absense = abs)
+      { late@adj _ %1}
+      else {%1} );
+
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Apertium-recursive
