@@ -7,6 +7,9 @@ gender = (GD m) m f mf GD;
 det_type = def ind dem itg;
 tense = pres past fut ifi pri fti;
 absence = abs;
+possession = px1sg px2sg px3sg px11pl px12pl px2pl px3pl ;
+person = p1 p2 p3;
+case = loc;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -17,14 +20,16 @@ adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
 
-
-NP: _.number.absence;
+DP: _.case.number.possession.absence;
+NP: _.case.number.possession.absence;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
 !!!!!!!!!!!!!!!
 
 tense > tense : ifi past, pri pres, fti fut;
+possession > person : px1sg p1, px2sg p2, px3sg p3, px11pl p1, px12pl p1, px2pl p2, px3pl p3;
+possession > number : px1sg sg, px2sg sp, px3sg sg, px11pl pl, px12pl pl, px2pl sp, px3pl pl;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -54,7 +59,11 @@ det: (if (1.det_type = def or 1.det_type = ind)
 ! Output: ^prpers<det><pos><p1><mf><sg> late<adj><sint> grandfather<n><sg>
 
 NP -> %n (if (1.absence = abs)
-      { late@adj _ %1}
+      { late@adj.sint _ %1}
+      else {%1} );
+
+DP -> %NP (if (1.possession in possession)
+      { prpers@det.pos.[1.possession>person].mf.[1.possession>number] _ %1}
       else {%1} );
 
 
