@@ -6,7 +6,7 @@ number = (ND sg) sg pl sp ND;
 gender = (GD m) m f mf GD;
 det_type = def ind dem itg;
 tense = pres past fut ifi pri fti;
-absense = abs;
+absence = abs;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -18,7 +18,7 @@ det_default: _.det_type;
 det_def: _.det_type.number;
 
 
-NP: _.number.absense;
+NP: _.number.absence;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -47,13 +47,13 @@ det: (if (1.det_type = def or 1.det_type = ind)
 
 
 
-! Rule for absense suffix: Noun phrase in English (noun w/ adjective "late") 
-! gets information from the noun phrase in Munsee (noun w/ absense suffix "aya")
+! Rule for absence suffix: Noun phrase in English (noun w/ adjective "late") 
+! gets information from the noun phrase in Munsee (noun w/ absence suffix "aya")
 ! (umu) nŭmoxoomsáya → (eng) my late grandfather 
 ! Input: ^moxóomus<n><aa><px1sg><abs> 
 ! Output: ^prpers<det><pos><p1><mf><sg> late<adj><sint> grandfather<n><sg>
 
-NP -> %n (if (1.absense = abs)
+NP -> %n (if (1.absence = abs)
       { late@adj _ %1}
       else {%1} );
 
