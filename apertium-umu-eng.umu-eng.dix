@@ -237,7 +237,7 @@
       <e><p><l>wŭlút<s n="v"/><s n="iv"><s n="nn"/></l><r>be<g><b/>nice</g><s n="vblex"/></r></p></e>
       <e><p><l>alóhkee<s n="v"/><s n="iv"/><s n="aa"/></l><r>work<s n="vblex"/></r></p></e>
       <e><p><l>uw<s n="v"/><s n="iv"/><s n="aa"/></l><r>say<s n="vblex"/></r></p></e>
-      <e><p><l>katáaleew<s n="v"/><s n="tv"/><s n="aa"/></l><r>want<b/>someone<s n="vblex"/></r></p></e>
+      <e><p><l>katáaleew<s n="v"/><s n="tv"/><s n="aa"/></l><r>want<s n="vblex"/></r></p></e>
       
 <!-- check if the English tags for these pronouns are right?
 -->
@@ -261,10 +261,52 @@
       <e><p><l>nu<s n="det"/><s n="dem"/><s n="nn"/></l><r>that<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
       <e><p><l>nun<s n="det"/><s n="dem"/><s n="nn"/></l><r>that<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
       
-
-
-
-
+      <e><p><l>néenaxkw<s n="n"/><s n="aa"/></l><r>ball<s n="n"/></r></p></e>
+      <e><p><l>áhteew<s n="v"/><s n="iv"><s n="nn"/></l><r>be<g><b/>there</g><s n="vblex"/></r></p></e>
+      <e><p><l>paxkshíikan<s n="n"/><s n="aa"/></l><r>knife<s n="n"/></r></p></e>
+      <e><p><l>apúw<s n="v"/><s n="iv"><s n="aa"/></l><r>be<g><b/>there</g><s n="vblex"/></r></p></e>
+      <e><p><l>Máaliish<s n="np"/><s n="ant"/></l><r>Molly<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>Méeliish<s n="np"/><s n="ant"/></l><r>Mary<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>máxkw<s n="n"/><s n="aa"/></l><r>bear<s n="n"/></r></p></e>
+      <e><p><l>máxkeew<s n="v"/><s n="iv"><s n="nn"/></l><r>be<g><b/>red</g><s n="vblex"/></r></p></e>
+      <e><p><l>máxksuw<s n="v"/><s n="iv"><s n="aa"/></l><r>be<g><b/>red</g><s n="vblex"/></r></p></e>
+      <e><p><l>msúchee<s n="adv"/></l><r>hardly<s n="adv"/></r></p></e>
+      <e><p><l>lúngteew<s n="v"/><s n="iv"><s n="nn"/></l><r>be<g><b/>melts</g><s n="vblex"/></r></p></e>
+      <e><p><l>náxk<s n="n"/><s n="nn"/></l><r>hand<s n="n"/></r></p></e>
+      <e><p><l>shungíixiin<s n="v"/><s n="iv"><s n="aa"/></l><r>lie<b/>down<s n="vblex"/></r></p></e>
+      <e><p><l>níimaaw<s n="v"/><s n="iv"><s n="aa"/></l><r>bring<b/>lunch<s n="vblex"/></r></p></e>
+      <e><p><l>óhpun<s n="n"/><s n="aa"/></l><r>potato<s n="n"/></r></p></e>
+      <e><p><l>ndúpuww<s n="v"/><s n="iv"><s n="aa"/></l><r>cook<s n="vblex"/></r></p></e>
+      <e><p><l>katáatam<s n="v"/><s n="tv"/><s n="nn"/></l><r>want<s n="vblex"/></r></p></e>
+      <e><p><l>asún<s n="n"/><s n="nn"/></l><r>rock<s n="n"/></r></p></e>
+      <e><p><l>ngwut<s n="num"/></l><r>one<s n="num"/><s n="sg"/></r></p></e>
+      <e><p><l>níisha<s n="num"/></l><r>two<s n="num"/><s n="pl"/></r></p></e>
+      <e><p><l>nxáh<s n="num"/></l><r>three<s n="num"/><s n="pl"/></r></p></e>
+      <e><p><l>néewa<s n="num"/></l><r>four<s n="num"/><s n="pl"/></r></p></e>
+      <e><p><l>náalan<s n="num"/></l><r>five<s n="num"/><s n="pl"/></r></p></e>
+      <e><p><l>mwáakaneew<s n="n"/><s n="aa"/></l><r>dog<s n="n"/></r></p></e>
+      <e><p><l>kíishooxkw<s n="n"/><s n="aa"/></l><r>sun<s n="n"/></r></p></e>    
+      <e><p><l>niipáahum<s n="n"/><s n="aa"/></l><r>moon<s n="n"/></r></p></e>    
+      <e><p><l>waapii<s n="adj"/></l><r>white<s n="adj"/></r></p></e>
+      <e><p><l>wiisaawii<s n="adj"/></l><r>yellow<s n="adj"/></r></p></e>
+      <e><p><l>maxkii<s n="adj"/></l><r>red<s n="adj"/></r></p></e>
+      <e><p><l>nzukii<s n="adj"/></l><r>black<s n="adj"/></r></p></e>
+      <e><p><l>naxkóohŭmeew<s n="v"/><s n="iv"><s n="aa"/></l><r>sing<s n="vblex"/></r></p></e>
+      <e><p><l>kshúteew<s n="v"/><s n="iv"><s n="nn"/></l><r>be<b/>hot<s n="vblex"/></r></p></e>
+      <e><p><l>sŭluskóonzheew<s n="v"/><s n="iv"><s n="aa"/></l><r>have<b/>many<b/>children<s n="vblex"/></r></p></e>
+      <e><p><l>tŭmushíikeew<s n="v"/><s n="iv"><s n="aa"/></l><r>cut<b/>grass<s n="vblex"/></r></p></e>
+      <e><p><l>péetoow<s n="v"/><s n="tv"><s n="nn"/></l><r>bring<s n="vblex"/></r></p></e>
+      <e><p><l>tawúnum<s n="v"/><s n="tv"><s n="nn"/></l><r>open<s n="vblex"/></r></p></e>
+      <e><p><l>hulŭniixsuwáakan<s n="n"/><s n="nn"/></l><r>Munsee<s n="n"/></r></p></e>
+      <e><p><l>kehla<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
+      <e><p><l>kwáachund<s n="emph"/></l><r>goodness<s n="n"/></r></p></e>
+      <e><p><l>kwtúnum<s n="v"/><s n="iv"><s n="nn"/></l><r>feel<b/>for<s n="vblex"/></r></p></e>
+      <e><p><l>aashtee<s n="adv"/></l><r>next<s n="adv"/></r></p></e>
+      <e><p><l>piht<s n="adv"/></l><r>maybe<s n="adv"/></r></p></e>
+      <e><p><l>peech<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
+      <!--80-->
+      
+      
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
