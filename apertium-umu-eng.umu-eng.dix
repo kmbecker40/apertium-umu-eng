@@ -89,6 +89,7 @@
     <sdef n="qnt"             c="Quantifier"/>
     <sdef n="neg"             c="Negative"/>
     <sdef n="emph"            c="Emphatic"/>
+    <sdef n="ij"              c="Interjection"/>   
 
     <sdef n="inf"             c="Infinitive"/>
     <sdef n="pres"            c="Present"/>
@@ -299,12 +300,20 @@
       <e><p><l>tawúnum<s n="v"/><s n="tv"/><s n="nn"/></l><r>open<s n="vblex"/></r></p></e>
       <e><p><l>hulŭniixsuwáakan<s n="n"/><s n="nn"/></l><r>Munsee<s n="n"/></r></p></e>
       <e><p><l>kehla<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
-      <e><p><l>kwáachund<s n="emph"/></l><r>goodness<s n="n"/></r></p></e>
+      <e><p><l>kwáachund<s n="ij"/></l><r>goodness<s n="ij"/></r></p></e>
       <e><p><l>kwtúnum<s n="v"/><s n="iv"/><s n="nn"/></l><r>feel<b/>for<s n="vblex"/></r></p></e>
       <e><p><l>aashtee<s n="adv"/></l><r>next<s n="adv"/></r></p></e>
       <e><p><l>piht<s n="adv"/></l><r>maybe<s n="adv"/></r></p></e>
       <e><p><l>peech<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
       <!--80-->
+      <e><p><l>wunjíimeew<s n="v"/><s n="tv"/><s n="aa"/></l><r>call<s n="vblex"/></r></p></e>
+      <e><p><l>taas<s n="adv"/></l><r>one<b/>time<s n="adv"/></r></p></e>
+      <e><p><l>wŭlustáweew<s n="v"/><s n="tv"/><s n="aa"/></l><r>believe<s n="vblex"/></r></p></e>
+      <e><p><l>takwapŭwáaleew<s n="v"/><s n="tv"/><s n="aa"/></l><r>marry<s n="vblex"/></r></p></e>
+      <e><p><l>ngwutn<s n="adv"/></l><r>once<s n="adv"/></r></p></e>
+      <e><p><l>kŭlústam<s n="v"/><s n="tv"/><s n="nn"/></l><r>listen<s n="vblex"/></r></p></e>
+      <e><p><l>chiipii<s n="adj"/></l><r>terrible<s n="adj"/></r></p></e>
+
       
       
 
