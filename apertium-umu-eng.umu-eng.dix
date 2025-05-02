@@ -91,7 +91,6 @@
     <sdef n="qnt"             c="Quantifier"/>
     <sdef n="neg"             c="Negative"/>
     <sdef n="emph"            c="Emphatic"/>
-    <sdef n="ij"              c="Interjection"/>   
 
     <sdef n="inf"             c="Infinitive"/>
     <sdef n="pres"            c="Present"/>
