@@ -26,6 +26,8 @@
     <sdef n="adj"             c="Adjective"/>
     <sdef n="prn"             c="Pronoun"/>
     <sdef n="mod"             c="Modal word"/>
+    <sdef n="abbr"             c="Abbreviation"/>
+
 
     <sdef n="attr"            c="Attributive"/>
     <sdef n="top"             c="Toponym"/>
