@@ -305,7 +305,6 @@
       <e><p><l>aashtee<s n="adv"/></l><r>next<s n="adv"/></r></p></e>
       <e><p><l>piht<s n="adv"/></l><r>maybe<s n="adv"/></r></p></e>
       <e><p><l>peech<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
-      <!--80-->
       <e><p><l>wunjíimeew<s n="v"/><s n="tv"/><s n="aa"/></l><r>call<s n="vblex"/></r></p></e>
       <e><p><l>taas<s n="adv"/></l><r>one<b/>time<s n="adv"/></r></p></e>
       <e><p><l>wŭlustáweew<s n="v"/><s n="tv"/><s n="aa"/></l><r>believe<s n="vblex"/></r></p></e>
@@ -313,9 +312,20 @@
       <e><p><l>ngwutn<s n="adv"/></l><r>once<s n="adv"/></r></p></e>
       <e><p><l>kŭlústam<s n="v"/><s n="tv"/><s n="nn"/></l><r>listen<s n="vblex"/></r></p></e>
       <e><p><l>chiipii<s n="adj"/></l><r>terrible<s n="adj"/></r></p></e>
+      <e><p><l>matantoowiineng<s n="n"/><s n="nn"/></l><r>hell<s n="n"/></r></p></e>    
+      <e><p><l>kuliikwaasuw<s n="v"/><s n="iv"/><s n="nn"/></l><r>sewn<s n="vblex"/></r></p></e>
+      <e><p><l>leekhámaweew<s n="v"/><s n="tv"/><s n="aa"/></l><r>write<s n="vblex"/></r></p></e>
+      <e><p><l>njihnal<s n="adv"/></l><r>more<s n="adv"/></r></p></e>
+      <e><p><l>saaláakhe<s n="v"/><s n="iv"/><s n="aa"/></l><r>cut<b/>logs<s n="vblex"/></r></p></e>
+      <e><p><l>kaatxákhwe<s n="v"/><s n="iv"/><s n="aa"/></l><r>cut<b/>cordwood<s n="vblex"/></r></p></e>
+      <e><p><l>mŭtáanheew<s n="v"/><s n="tv"/><s n="aa"/></l><r>bewitch<s n="vblex"/></r></p></e>
+      <e><p><l>móxkaweew<s n="v"/><s n="tv"/><s n="aa"/></l><r>find<s n="vblex"/></r></p></e>
+      <e><p><l>péhkiik<s n="adv"/></l><r>eventually<s n="adv"/></r></p></e>
+      <e><p><l>chahkwéeshuw<s n="v"/><s n="iv"/><s n="nn"/></l><r>be<g><b/>short</g><s n="vblex"/></r></p></e>
+      <e><p><l>nxoo<s n="adv"/></l><r>alone<s n="adv"/></r></p></e>
+      <e><p><l>mah<s n="adv"/></l><r>no<s n="abbr"/></r></p></e>
+      <e><p><l>kwíilam<s n="v"/><s n="tv"/><s n="nn"/></l><r>look<b/>for<s n="vblex"/></r></p></e>
 
-      
-      
 
       <e><re>[.\?;:!…¿¶]</re><p><l><s n="sent"/></l><r><s n="sent"/></r></p></e>
       <e><re>,</re>          <p><l><s n="cm"/></l>  <r><s n="cm"/></r></p></e>
