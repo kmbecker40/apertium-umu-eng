@@ -67,6 +67,7 @@ DP -> %NP (if (1.possession in possession)
       else {%1} );
 
 
+
 ! Resources:
 ! https://wiki.apertium.org/wiki/Apertium-recursive
 ! https://wiki.apertium.org/wiki/Apertium-recursive/Formalism
