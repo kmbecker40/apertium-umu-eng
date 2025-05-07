@@ -22,6 +22,8 @@ det_def: _.det_type.number;
 
 DP: _.case.number.possession.absence;
 NP: _.case.number.possession.absence;
+vP: _.transitivity.animacy.subj.obj;
+VP: _.transitivity.polarity.tense.person.number;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -66,6 +68,25 @@ DP -> %NP (if (1.possession in possession)
       { prpers@det.pos.[1.possession>person].mf.[1.possession>number] _ %1}
       else {%1} );
 
+
+
+! Rule for verb phrases
+
+
+
+
+! Rule for verb phrase negation
+! Verb phrases in English get information from verbs in Munsee
+! (umu) mah stem-suffix -> (eng) do not stem
+! Input: mah <adv> wiinéewi <v><iv><nn><neg><s_3sg>
+! Output: does not snow
+
+vP = mah@adv %v.*.neg {do@vbdo.pres.[person=2person] _ 
+                  not@adv _
+                  %2[vform=inf]} ;
+
+VP -> vP.tv.aa DP.aa {1 _ 2} |
+      vP.tv.nn DP.nn {1 _ 2};
 
 
 ! Resources:
