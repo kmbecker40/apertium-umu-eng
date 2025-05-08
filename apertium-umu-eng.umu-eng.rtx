@@ -3,13 +3,18 @@
 !!!!!!!!!!!!!!!
 
 number = (ND sg) sg pl sp ND;
-gender = (GD m) m f mf GD;
+gender = (GD m) m f mf GD nt;
 det_type = def ind dem itg;
-tense = pres past fut ifi pri fti;
+tense = pres past fut ifi pri fti pprs;
 absence = abs;
 possession = px1sg px2sg px3sg px11pl px12pl px2pl px3pl ;
 person = p1 p2 p3;
 case = loc;
+transitivity = iv tv;
+animacy = aa nn;
+subj = s_sg s_1sg s_2sg s_3sg s_11pl s_12pl s_2pl s_3pl;
+obj = o_1sg o_2sg o_3sg o_11pl o_12pl o_2pl o_3pl;
+polarity = neg;
 
 !!!!!!!!!!!!!!!
 !! OUTPUT PATTERNS
@@ -19,11 +24,14 @@ n: _.number;
 adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
+v_default: _.tense;
+v_pres3sg: _.tense.person.number;
 
 DP: _.case.number.possession.absence;
 NP: _.case.number.possession.absence;
 vP: _.transitivity.animacy.subj.obj;
-VP: _.transitivity.polarity.tense.person.number;
+VP: _.transitivity.polarity.tense.subj.obj;
+S: _.transitivity.polarity.tense.subj.obj;
 
 !!!!!!!!!!!!!!!
 !! TAG-REWRITE RULES
@@ -32,6 +40,9 @@ VP: _.transitivity.polarity.tense.person.number;
 tense > tense : ifi past, pri pres, fti fut;
 possession > person : px1sg p1, px2sg p2, px3sg p3, px11pl p1, px12pl p1, px2pl p2, px3pl p3;
 possession > number : px1sg sg, px2sg sp, px3sg sg, px11pl pl, px12pl pl, px2pl sp, px3pl pl;
+subj > person : s_sg p3, s_1sg p1, s_2sg p2, s_3sg p3, s_11pl p1, s_12pl p1, s_2pl p2, s_3pl p3;
+subj > number : s_sg sg, s_1sg sg, s_2sg sg, s_3sg sg, s_11pl pl, s_12pl pl, s_2pl pl, s_3pl pl;
+subj > gender : s_sg nt, s_1sg mf, s_2sg mf, s_3sg m, s_11pl mf, s_12pl mf, s_2pl mf, s_3pl mf;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -41,6 +52,11 @@ det: (if (1.det_type = def or 1.det_type = ind)
          1(det_def)
       else
          1(det_default));
+
+v: (if (1.tense = pres and (1.subj = s_3sg or 1.subj = s_sg)) 
+         1(v_pres3sg) 
+      else
+         1(v_default));
 
 !!!!!!!!!!!!!!!
 !! REDUCTION RULES
@@ -70,10 +86,6 @@ DP -> %NP (if (1.possession in possession)
 
 
 
-! Rule for verb phrases
-
-
-
 
 ! Rule for verb phrase negation
 ! Verb phrases in English get information from verbs in Munsee
@@ -81,13 +93,18 @@ DP -> %NP (if (1.possession in possession)
 ! Input: mah <adv> wiinéewi <v><iv><nn><neg><s_3sg>
 ! Output: does not snow
 
-vP = mah@adv %v.*.neg {do@vbdo.pres.[person=2person] _ 
+vP -> mah@adv %v.*.neg {do@vbdo.pres.[2.subj>person].[2.subj>number] _ 
                   not@adv _
-                  %2[vform=inf]} ;
+                  %2[tense=inf]} |
+      %v.* ?(1.polarity not = neg) [$person=1.subj>person,$number=1.subj>number] {
+                  %1[tense=pres,lemcase=aa]} ;
 
-VP -> vP.tv.aa DP.aa {1 _ 2} |
-      vP.tv.nn DP.nn {1 _ 2};
+VP -> %vP.tv.aa DP.aa {%1 _ 2} |
+      %vP.tv.nn DP.nn {%1 _ 2} |
+      %vP.iv {%1};
 
+S -> DP %VP {1 _ %2} |
+     %VP {prpers@prn.subj.[1.subj>person].[1.subj>gender].[1.subj>number] _ %1} ;
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Apertium-recursive
