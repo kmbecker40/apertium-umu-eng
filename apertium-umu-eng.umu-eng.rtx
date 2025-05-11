@@ -40,9 +40,12 @@ S: _.transitivity.polarity.tense.subj.obj;
 tense > tense : ifi past, pri pres, fti fut;
 possession > person : px1sg p1, px2sg p2, px3sg p3, px11pl p1, px12pl p1, px2pl p2, px3pl p3;
 possession > number : px1sg sg, px2sg sp, px3sg sg, px11pl pl, px12pl pl, px2pl sp, px3pl pl;
-subj > person : s_sg p3, s_1sg p1, s_2sg p2, s_3sg p3, s_11pl p1, s_12pl p1, s_2pl p2, s_3pl p3;
-subj > number : s_sg sg, s_1sg sg, s_2sg sg, s_3sg sg, s_11pl pl, s_12pl pl, s_2pl pl, s_3pl pl;
-subj > gender : s_sg nt, s_1sg mf, s_2sg mf, s_3sg m, s_11pl mf, s_12pl mf, s_2pl mf, s_3pl mf;
+subj > person : s_sg p3, s_1sg p1, s_2sg p2, s_3sg p3, s_11pl p1, s_12pl p1, s_2pl p2, s_3pl p3, s_pl p3;
+subj > number : s_sg sg, s_1sg sg, s_2sg sg, s_3sg sg, s_11pl pl, s_12pl pl, s_2pl pl, s_3pl pl, s_pl pl;
+subj > gender : s_sg nt, s_1sg mf, s_2sg mf, s_3sg m, s_11pl mf, s_12pl mf, s_2pl mf, s_3pl mf, s_pl mf;
+obj > person : o_sg p3, o_1sg p1, o_2sg p2, o_3sg p3, o_11pl p1, o_12pl p1, o_2pl p2, o_3pl p3, o_pl p3;
+obj > number : o_sg sg, o_1sg sg, o_2sg sg, o_3sg sg, o_11pl pl, o_12pl pl, o_2pl pl, o_3pl pl, o_pl pl;
+obj > gender : o_sg nt, o_1sg mf, o_2sg mf, o_3sg m, o_11pl mf, o_12pl mf, o_2pl mf, o_3pl mf, o_pl mf;
 
 !!!!!!!!!!!!!!!
 !! MACROS
@@ -87,7 +90,7 @@ DP -> %NP (if (1.possession in possession)
 
 
 
-! Rule for verb phrase negation
+! Rule for verb phrases
 ! Verb phrases in English get information from verbs in Munsee
 ! (umu) mah stem-suffix -> (eng) do not stem
 ! Input: mah <adv> wiinéewi <v><iv><nn><neg><s_3sg>
@@ -105,6 +108,9 @@ VP -> %vP.tv.aa DP.aa {%1 _ 2} |
 
 S -> DP %VP {1 _ %2} |
      %VP {prpers@prn.subj.[1.subj>person].[1.subj>gender].[1.subj>number] _ %1} ;
+
+
+
 
 ! Resources:
 ! https://wiki.apertium.org/wiki/Apertium-recursive
