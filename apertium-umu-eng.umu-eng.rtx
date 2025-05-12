@@ -12,8 +12,8 @@ person = p1 p2 p3;
 case = loc;
 transitivity = iv tv;
 animacy = aa nn;
-subj = s_sg s_1sg s_2sg s_3sg s_11pl s_12pl s_2pl s_3pl;
-obj = o_1sg o_2sg o_3sg o_11pl o_12pl o_2pl o_3pl;
+subj = s_sg s_1sg s_2sg s_3sg s_11pl s_12pl s_2pl s_3pl s_pl;
+obj = o_sg o_1sg o_2sg o_3sg o_11pl o_12pl o_2pl o_3pl o_pl;
 polarity = neg;
 
 !!!!!!!!!!!!!!!
@@ -25,7 +25,7 @@ adj: _.gender.number;
 det_default: _.det_type;
 det_def: _.det_type.number;
 v_default: _.tense;
-v_pres3sg: _.tense.person.number;
+v_pres3: _.tense.person.number;
 
 DP: _.case.number.possession.absence;
 NP: _.case.number.possession.absence;
@@ -56,8 +56,8 @@ det: (if (1.det_type = def or 1.det_type = ind)
       else
          1(det_default));
 
-v: (if (1.tense = pres and (1.subj = s_3sg or 1.subj = s_sg)) 
-         1(v_pres3sg) 
+v: (if (1.tense = pres and (1.subj = s_pl or 1.subj = s_sg or 1.subj = s_3sg )) 
+         1(v_pres3) 
       else
          1(v_default));
 
@@ -97,7 +97,7 @@ DP -> %NP (if (1.possession in possession)
 ! Output: does not snow
 
 vP -> mah@adv %v.*.neg {do@vbdo.pres.[2.subj>person].[2.subj>number] _ 
-                  not@adv _
+                  not@adv _ 
                   %2[tense=inf]} |
       %v.* ?(1.polarity not = neg) [$person=1.subj>person,$number=1.subj>number] {
                   %1[tense=pres,lemcase=aa]} ;
