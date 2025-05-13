@@ -145,7 +145,7 @@
 
       <e><p><l>nal<s n="adv"/></l><r>then<s n="adv"/></r></p></e>
       <e><p><l>Pahtamawaas<s n="np"/><s n="ant"/></l><r>God<s n="np"/><s n="al"/><s n="sg"/></r></p></e>
-      <e><p><l>kpaham<s n="v"/><s n="tv"/><s n="nn"/></l><r>shut<s n="vblex"/></r></p></e>
+      <e><p><l>kpáham<s n="v"/><s n="tv"/><s n="nn"/></l><r>shut<s n="vblex"/></r></p></e>
       <e><p><l>kpahoon<s n="n"/><s n="nn"/></l><r>door<s n="n"/></r></p></e>
 
       <e><p><l>kumootkeew<s n="v"/><s n="tv"/><s n="aa"/></l><r>steal<s n="vblex"/></r></p></e>
@@ -188,10 +188,10 @@
       <e><p><l>manihleew<s n="v"/><s n="iv"/><s n="aa"/></l><r>die<s n="vblex"/></r></p></e>
       <e><p><l>kohpii<s n="n"/><s n="aa"/></l><r>forest<s n="n"/></r></p></e>
       <e><p><l>ahkuy<s n="n"/><s n="nn"/></l><r>earth<s n="n"/></r></p></e>
-      <e><p><l>liiteeheew<s n="v"/><s n="iv"/><s n="aa"/></l><r>think<s n="vblex"/></r></p></e>
+      <e><p><l>liitéeheew<s n="v"/><s n="iv"/><s n="aa"/></l><r>think<s n="vblex"/></r></p></e>
       <e><p><l>koot<s n="n"/><s n="nn"/></l><r>coat<s n="n"/></r></p></e>
       <e><p><l>tundeew<s n="n"/><s n="nn"/></l><r>fire<s n="n"/></r></p></e>
-      <e><p><l>neem<s n="v"/><s n="tv"/><s n="nn"/></l><r>see<s n="vblex"/></r></p></e>
+      <e><p><l>néem<s n="v"/><s n="tv"/><s n="nn"/></l><r>see<s n="vblex"/></r></p></e>
       <e><p><l>lpákw<s n="v"/><s n="iv"/><s n="aa"/></l><r>cry<s n="vblex"/></r></p></e>
       <e><p><l>ha<s n="emph"/></l><r>emphatic<s n="adj"/></r></p></e>
       <e><p><l>uch<s n="mod"/></l><r>will<s n="vbmod"/></r></p></e>
@@ -239,7 +239,7 @@
       <e><p><l>wŭlút<s n="v"/><s n="iv"/><s n="nn"/></l><r>be<g><b/>nice</g><s n="vblex"/></r></p></e>
       <e><p><l>alóhkee<s n="v"/><s n="iv"/><s n="aa"/></l><r>work<s n="vblex"/></r></p></e>
       <e><p><l>uw<s n="v"/><s n="iv"/><s n="aa"/></l><r>say<s n="vblex"/></r></p></e>
-      <e><p><l>katáaleew<s n="v"/><s n="tv"/><s n="aa"/></l><r>want<s n="vblex"/></r></p></e>
+      <e><p><l>katáatam<s n="v"/><s n="tv"/><s n="aa"/></l><r>want<s n="vblex"/></r></p></e>
       
 <!-- check if the English tags for these pronouns are right?
 -->
@@ -264,7 +264,7 @@
       <e><p><l>nun<s n="det"/><s n="dem"/><s n="nn"/></l><r>that<s n="det"/><s n="dem"/><s n="sg"/></r></p></e>
       
       <e><p><l>néenaxkw<s n="n"/><s n="aa"/></l><r>ball<s n="n"/></r></p></e>
-      <e><p><l>áhteew<s n="v"/><s n="iv"/><s n="nn"/></l><r>be<g><b/>there</g><s n="vblex"/></r></p></e>
+      <e><p><l>apii<s n="v"/><s n="iv"/><s n="nn"/></l><r>be<g><b/>there</g><s n="vblex"/></r></p></e>
       <e><p><l>paxkshíikan<s n="n"/><s n="aa"/></l><r>knife<s n="n"/></r></p></e>
       <e><p><l>apúw<s n="v"/><s n="iv"/><s n="aa"/></l><r>be<g><b/>there</g><s n="vblex"/></r></p></e>
       <e><p><l>Máaliish<s n="np"/><s n="ant"/></l><r>Molly<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></r></p></e>
@@ -278,7 +278,7 @@
       <e><p><l>shungíixiin<s n="v"/><s n="iv"/><s n="aa"/></l><r>lie<g><b/>down</g><s n="vblex"/></r></p></e>
       <e><p><l>níimaa<s n="v"/><s n="iv"/><s n="aa"/></l><r>bring<g><b/>lunch</g><s n="vblex"/></r></p></e>
       <e><p><l>óhpun<s n="n"/><s n="aa"/></l><r>potato<s n="n"/></r></p></e>
-      <e><p><l>ndúpuww<s n="v"/><s n="iv"/><s n="aa"/></l><r>cook<s n="vblex"/></r></p></e>
+      <e><p><l>ndúpuw<s n="v"/><s n="iv"/><s n="aa"/></l><r>cook<s n="vblex"/></r></p></e>
       <e><p><l>katáatam<s n="v"/><s n="tv"/><s n="nn"/></l><r>want<s n="vblex"/></r></p></e>
       <e><p><l>asún<s n="n"/><s n="nn"/></l><r>rock<s n="n"/></r></p></e>
       <e><p><l>ngwut<s n="num"/></l><r>one<s n="num"/><s n="sg"/></r></p></e>
@@ -302,7 +302,7 @@
       <e><p><l>hulŭniixsuwáakan<s n="n"/><s n="nn"/></l><r>Munsee<s n="n"/></r></p></e>
       <e><p><l>kehla<s n="adv"/></l><r>really<s n="adv"/></r></p></e>
       <e><p><l>kwáachund<s n="ij"/></l><r>goodness<s n="ij"/></r></p></e>
-      <e><p><l>kwtúnum<s n="v"/><s n="iv"/><s n="nn"/></l><r>feel<g><b/>for</g><s n="vblex"/></r></p></e>
+      <e><p><l>kwutúmun<s n="v"/><s n="iv"/><s n="nn"/></l><r>feel<g><b/>for</g><s n="vblex"/></r></p></e>
       <e><p><l>aashtee<s n="adv"/></l><r>next<s n="adv"/></r></p></e>
       <e><p><l>piht<s n="adv"/></l><r>maybe<s n="adv"/></r></p></e>
       <e><p><l>peech<s n="adv"/></l><r>here<s n="adv"/></r></p></e>
@@ -329,7 +329,7 @@
       <e><p><l>piinjiipáhtoow<s n="v"/><s n="iv"/><s n="aa"/></l><r>hurry<b/>inside<s n="vblex"/></r></p></e>
       <e><p><l>kúndkeew<s n="v"/><s n="iv"/><s n="aa"/></l><r>dance<s n="vblex"/></r></p></e>
       <e><p><l>pŭmáashŭwiiw<s n="v"/><s n="iv"/><s n="aa"/></l><r>swim<s n="vblex"/></r></p></e>
-      <e><p><l>pümutáachiind<s n="v"/><s n="tv"/><s n="nn"/></l><r>drag<g><b/>along</g><s n="vblex"/></r></p></e>
+      <e><p><l>pŭmutáachiind<s n="v"/><s n="tv"/><s n="nn"/></l><r>drag<g><b/>along</g><s n="vblex"/></r></p></e>
       <e><p><l>peettáachiind<s n="v"/><s n="tv"/><s n="nn"/></l><r>drag<g><b/>here</g><s n="vblex"/></r></p></e>
       <e><p><l>lóngwaam<s n="v"/><s n="tv"/><s n="nn"/></l><r>dream<b/>about<s n="vblex"/></r></p></e>
       <e><p><l>mŭláam<s n="v"/><s n="tv"/><s n="nn"/></l><r>smells<s n="vblex"/></r></p></e>
@@ -342,7 +342,7 @@
       <e><p><l>pépul<s n="n"/><s n="nn"/></l><r>pepper<s n="n"/></r></p></e>    
       <e><p><l>píilsuw<s n="v"/><s n="iv"/><s n="aa"/></l><r>be<b/>clean<s n="vblex"/></r></p></e>
       <e><p><l>alakweelúndam<s n="v"/><s n="iv"/><s n="aa"/></l><r>be<b/>sorry<s n="vblex"/></r></p></e>
-      <e><p><l>wulàmalŭsuw<s n="v"/><s n="iv"/><s n="aa"/></l><r>feel<b/>well<s n="vblex"/></r></p></e>
+      <e><p><l>wulàmalúsuw<s n="v"/><s n="iv"/><s n="aa"/></l><r>feel<b/>well<s n="vblex"/></r></p></e>
       <e><p><l>pumúsuw<s n="v"/><s n="iv"/><s n="aa"/></l><r>walk<s n="vblex"/></r></p></e>
 
     
