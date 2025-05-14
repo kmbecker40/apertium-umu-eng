@@ -31,7 +31,7 @@ v_pres3: _.tense.person.number;
 
 DP: _.animacy.case.number.possession.absence;
 NP: _.animacy.case.number.possession.absence;
-vP: _.transitivity.animacy.subj.obj;
+vP: _.transitivity.polarity.animacy.subj.obj;
 VP: _.transitivity.polarity.tense.subj.obj;
 S: _.transitivity.polarity.tense.subj.obj;
 

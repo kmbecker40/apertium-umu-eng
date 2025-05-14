@@ -192,6 +192,7 @@
       <e><p><l>koot<s n="n"/><s n="nn"/></l><r>coat<s n="n"/></r></p></e>
       <e><p><l>tundeew<s n="n"/><s n="nn"/></l><r>fire<s n="n"/></r></p></e>
       <e><p><l>néem<s n="v"/><s n="tv"/><s n="nn"/></l><r>see<s n="vblex"/></r></p></e>
+      <e><p><l>néewaa<s n="v"/><s n="tv"/><s n="aa"/></l><r>see<s n="vblex"/></r></p></e>
       <e><p><l>lpákw<s n="v"/><s n="iv"/><s n="aa"/></l><r>cry<s n="vblex"/></r></p></e>
       <e><p><l>ha<s n="emph"/></l><r>emphatic<s n="adj"/></r></p></e>
       <e><p><l>uch<s n="mod"/></l><r>will<s n="vbmod"/></r></p></e>
@@ -296,7 +297,7 @@
       <e><p><l>naxkóohŭmeew<s n="v"/><s n="iv"/><s n="aa"/></l><r>sing<s n="vblex"/></r></p></e>
       <e><p><l>kshúteew<s n="v"/><s n="iv"/><s n="nn"/></l><r>be<b/>hot<s n="vblex"/></r></p></e>
       <e><p><l>sŭluskóonzheew<s n="v"/><s n="iv"/><s n="aa"/></l><r>have<b/>many<b/>children<s n="vblex"/></r></p></e>
-      <e><p><l>tŭmushíikeew<s n="v"/><s n="iv"/><s n="aa"/></l><r>cut<g><b/>grass</g><s n="vblex"/></r></p></e>
+      <e><p><l>tŭmushíikee<s n="v"/><s n="iv"/><s n="aa"/></l><r>cut<g><b/>grass</g><s n="vblex"/></r></p></e>
       <e><p><l>péetoo<s n="v"/><s n="tv"/><s n="nn"/></l><r>bring<s n="vblex"/></r></p></e>
       <e><p><l>tawúnum<s n="v"/><s n="tv"/><s n="nn"/></l><r>open<s n="vblex"/></r></p></e>
       <e><p><l>hulŭniixsuwáakan<s n="n"/><s n="nn"/></l><r>Munsee<s n="n"/></r></p></e>
@@ -327,17 +328,17 @@
       <e><p><l>mah<s n="adv"/></l><r>not<s n="adv"/></r></p></e>
       <e><p><l>kwíilam<s n="v"/><s n="tv"/><s n="nn"/></l><r>look<g><b/>for</g><s n="vblex"/></r></p></e>
       <e><p><l>piinjiipáhtoo<s n="v"/><s n="iv"/><s n="aa"/></l><r>hurry<g><b/>inside</g><s n="vblex"/></r></p></e>
-      <e><p><l>kúndkeew<s n="v"/><s n="iv"/><s n="aa"/></l><r>dance<s n="vblex"/></r></p></e>
+      <e><p><l>kúndkee<s n="v"/><s n="iv"/><s n="aa"/></l><r>dance<s n="vblex"/></r></p></e>
       <e><p><l>pŭmáashŭwihl<s n="v"/><s n="iv"/><s n="aa"/></l><r>swim<s n="vblex"/></r></p></e>
       <e><p><l>pŭmutáachiind<s n="v"/><s n="tv"/><s n="nn"/></l><r>drag<g><b/>along</g><s n="vblex"/></r></p></e>
       <e><p><l>peettáachiind<s n="v"/><s n="tv"/><s n="nn"/></l><r>drag<g><b/>here</g><s n="vblex"/></r></p></e>
       <e><p><l>lóngwaam<s n="v"/><s n="tv"/><s n="nn"/></l><r>dream<b/>about<s n="vblex"/></r></p></e>
       <e><p><l>mŭláam<s n="v"/><s n="tv"/><s n="nn"/></l><r>smells<s n="vblex"/></r></p></e>
       <e><p><l>wund<s n="v"/><s n="tv"/><s n="nn"/></l><r>get<b/>from<s n="vblex"/></r></p></e>
-      <e><p><l>ktáam<s n="v"/><s n="tv"/><s n="nn"/></l><r>eats<b/>up<s n="vblex"/></r></p></e>
-      <e><p><l>mŭnéew<s n="v"/><s n="tv"/><s n="nn"/></l><r>drink<s n="vblex"/></r></p></e>
+      <e><p><l>ktáam<s n="v"/><s n="tv"/><s n="nn"/></l><r>eat<g><b/>up</g><s n="vblex"/></r></p></e>
+      <e><p><l>mŭnée<s n="v"/><s n="tv"/><s n="nn"/></l><r>drink<s n="vblex"/></r></p></e>
       <e><p><l>msháatam<s n="v"/><s n="tv"/><s n="nn"/></l><r>drink<s n="vblex"/></r></p></e>
-      <e><p><l>kxánuw<s n="v"/><s n="tv"/><s n="nn"/></l><r>have<s n="vblex"/></r></p></e>
+      <e><p><l>kxánuw<s n="v"/><s n="tv"/><s n="aa"/></l><r>have<s n="vblex"/></r></p></e>
       <e><p><l>wihkwíhlee<s n="v"/><s n="tv"/><s n="nn"/></l><r>run<g><b/>out<b/>of</g><s n="vblex"/></r></p></e>
       <e><p><l>pépul<s n="n"/><s n="nn"/></l><r>pepper<s n="n"/></r></p></e>    
       <e><p><l>píilsuw<s n="v"/><s n="iv"/><s n="aa"/></l><r>be<b/>clean<s n="vblex"/></r></p></e>
@@ -345,6 +346,7 @@
       <e><p><l>wulàmalúsuw<s n="v"/><s n="iv"/><s n="aa"/></l><r>feel<b/>well<s n="vblex"/></r></p></e>
       <e><p><l>pumúsuw<s n="v"/><s n="iv"/><s n="aa"/></l><r>walk<s n="vblex"/></r></p></e>
       <e><p><l>lŭnúm<s n="v"/><s n="tv"/><s n="nn"/></l><r>do<s n="vblex"/></r></p></e>
+      <e><p><l>puyool<s n="n"/><s n="nn"/></l><r>violin<s n="n"/></r></p></e>    
     
 
 
