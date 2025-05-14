@@ -54,18 +54,18 @@ If you are in the source directory after running make, the following
 commands should work:
 
 ```console
-$ echo "TODO test sentence 1" | apertium -d . umu-eng
-TODO test translated sentence 1
+$ echo "nuwihkwíhlaa pépul" | apertium -d . umu-eng
+I run out of pepper
 
-$ echo "TODO test sentence 2" | apertium -d . eng-umu
-TODO test translated sentence 2
+$ echo "kpundam puyool" | apertium -d . umu-eng
+you hear violin
 ```
 
 After installing somewhere in `$PATH`, you should be able to do e.g.
 
 ```console
-$ echo "TODO test sentence 1" | apertium umu-eng
-TODO test translated sentence 1
+$ echo "kawíiwak" | apertium umu-eng
+they sleep
 ```
 
 Files and data
@@ -81,6 +81,7 @@ Files and data
 For more information
 -------------------------------------------------------------------------------
 
+* https://wikis.swarthmore.edu/ling073/Munsee/Final_Project - Final Project Wiki 
 * https://wiki.apertium.org/wiki/Installation
 * https://wiki.apertium.org/wiki/apertium-umu-eng
 * https://wiki.apertium.org/wiki/Using_an_lttoolbox_dictionary
