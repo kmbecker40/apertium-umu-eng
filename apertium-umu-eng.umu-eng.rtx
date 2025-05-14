@@ -106,7 +106,7 @@ DP -> %NP (if (1.possession in possession)
 ! Input: mah <adv> wiinéewi <v><iv><nn><neg><s_3sg>
 ! Output: does not snow
 
-vP -> mah@adv %v.*.neg {do@vbdo.pres.[2.subj>do_person].[2.subj>do_number] _ 
+vP -> mah@adv %v.*.neg {*(vbdo)[lem = "do", do_person=2.subj, do_number=2.subj] _ 
                   not@adv _ 
                   %2[tense=inf]} |
       %v.* ?(1.polarity not = neg) [$person=1.subj>person,$number=1.subj>number] {

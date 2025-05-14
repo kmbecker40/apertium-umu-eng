@@ -18,7 +18,7 @@ they work.
 I lie down.
 he lies down.
 you lie down.
-#lie# down.
+we #do not lie down.
 we lie down.
 he is there.
 he hurries inside.
@@ -85,8 +85,8 @@ you shut it.
 #God he shuts door.
 it is red.
 they are red.
-#be# red.
-#be# red.
+it #do not be red.
+they #do not be red.
 I bring lunch.
 you bring lunch.
 he brings lunch.
@@ -96,7 +96,7 @@ you bring lunch.
 they bring lunch.
 it is nice.
 they are nice.
-#be# nice.
-#be# nice.
+it #do not be nice.
+they #do not be nice.
 I hear violin.
 you hear it.
